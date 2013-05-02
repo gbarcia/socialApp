@@ -6,6 +6,7 @@ gem 'rails', '4.0.0.beta1'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.0'
+  gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
@@ -14,7 +15,7 @@ group :test do
 end
 
 group :assets do
-  gem 'sass-rails',   '4.0.0.beta1'
+  gem 'sass-rails', '4.0.0.beta1'
   gem 'coffee-rails', '4.0.0.beta1'
   gem 'uglifier', '1.0.3'
 end
